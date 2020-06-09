@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testngTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0,433">
+  <properties />
+  
+  
+            <testcase name="testNegativePostJson" time="0,433" classname="testclasses.NegativePostJson" />
+      
+</testsuite>

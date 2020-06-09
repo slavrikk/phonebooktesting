@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testingmaterial" parallel="methods">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="testngTest">
+        <classes>
+            <class name="testclasses.NegativePostJson" />
+            <class name="testclasses.NegativePhoneNumberFormat" />
+            <class name="testclasses.PostGetContactScenario" />
+            <class name="testclasses.TestGetUser" />
+            <class name="testclasses.TestPostUser" />
+            <class name="testclasses.GetContactById" />
+        </classes>
+    </test>
+</suite>
